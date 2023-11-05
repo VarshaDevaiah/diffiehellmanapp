@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#80000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter P:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/input_p"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:backgroundTint="#FFFFFF"-->
+    <!--        android:inputType="number"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        android:textColor="#000000" />-->
+
+    <EditText
+        android:id="@+id/input_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to encrypt"
+        android:layout_below="@id/text_g"
+        android:layout_margin="16dp"
+        android:minHeight="48dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/text_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter G:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/input_p"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/input_g"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/text_g"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:backgroundTint="#FFFFFF"-->
+    <!--        android:inputType="number"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        android:textColor="#000000" />-->
+
+    <EditText
+        android:id="@+id/input_g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to encrypt"
+        android:layout_below="@id/text_g"
+        android:layout_margin="16dp"
+        android:minHeight="48dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/text_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter A:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/input_g"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/input_a"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/text_a"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:backgroundTint="#FFFFFF"-->
+    <!--        android:inputType="number"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        android:textColor="#000000" />-->
+
+    <EditText
+        android:id="@+id/input_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to encrypt"
+        android:layout_below="@id/text_a"
+        android:layout_margin="16dp"
+        android:minHeight="48dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/text_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter B:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/input_a"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/input_b"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/text_b"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:backgroundTint="#FFFFFF"-->
+    <!--        android:inputType="number"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        android:textColor="#000000" />-->
+
+    <EditText
+        android:id="@+id/input_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to encrypt"
+        android:layout_below="@id/text_b"
+        android:layout_margin="16dp"
+        android:minHeight="48dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/input_b"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/btn_calculate"/>
+
+</LinearLayout>
